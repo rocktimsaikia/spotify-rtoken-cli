@@ -1,0 +1,20 @@
+{
+  "name": "spotify-refresh-token-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1",
+    "clipboardy": "^3.0.0",
+    "inquirer": "^8.2.2",
+    "meow": "^10.1.2",
+    "node-fetch": "^3.2.3",
+    "open": "^8.4.0",
+    "ora": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
