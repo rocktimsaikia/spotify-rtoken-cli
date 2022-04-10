@@ -1,9 +1,21 @@
 {
   "name": "spotify-refresh-token-cli",
   "version": "1.0.0",
-  "main": "index.js",
+  "files": [
+    "cli.js"
+  ],
   "license": "MIT",
   "type": "module",
+  "bin": {
+    "spotify-rtoken": "./cli.js"
+  },
+  "author": {
+    "email": "rocktimthedev@gmail.com",
+    "name": "Rocktim Saikia",
+    "url": "https://rocktimcodes.site"
+  },
+  "funding": "https://buymeacoffee.com/rocktimcodes",
+  "repository": "rocktimsaikia/spotify-rtoken-cli",
   "dependencies": {
     "boxen": "^6.2.1",
     "chalk": "^5.0.1",
@@ -16,5 +28,12 @@
   },
   "devDependencies": {
     "prettier": "^2.6.2"
-  }
+  },
+  "keywords": [
+    "spotify",
+    "spotify-refresh-token",
+    "spotify-refresh-token-generate",
+    "spotify-refresh-token-cli",
+    "refresh-token"
+  ]
 }
