@@ -22,13 +22,13 @@ Below are the Spotify credentials you will need from your [ Spotify app ](https:
 ## Installation
 
 ```sh
-$ npm install --global spotify-rtoken
+$ npm install --global spotify-rtoken-cli
 ```
 
 ## Usage
 
 ```sh
-$ spotify-ftoken --help
+$ spotify-rtoken --help
 
   Usage
     $ spotify-rtoken
