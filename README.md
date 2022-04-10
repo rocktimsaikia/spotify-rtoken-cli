@@ -1,15 +1,20 @@
 # spotify-rtoken-cli
 
+> Generate a Spotify `refresh_token` right from terminal
+
 ![spotify-rtoken](./spotify-rtoken.svg)
 
-> Generate Spotify `refresh_token` right from terminal
+> In step 5, you will be redirected to your browser for confirming permissions. Then you will be redirected to the specified `callback_url` with the code. Copy that `code`, paste in the terminal.
+
+> ![partial_blur](https://user-images.githubusercontent.com/33410545/162616418-d5d907cb-cb6f-4712-875c-2f1493920cc8.jpg)
 
 ## Highlights
 
 1. Easy to use. You just need to call the CLI and follow the prompt
 2. Does not store any credentials locally
-3. You are aware of every step that is being executed
-4. No need to define scopes, unless you want to manually add scopes
+3. Directly copies the `refresh_token` to cliboard :sparkles:
+4. You are aware of every step that is being executed
+5. No need to define scopes, unless you want to manually add scopes. Recommended option is `read-only` scopes.
 
 ## Prerequisites
 
@@ -43,7 +48,7 @@ $ spotify-rtoken --help
 
 ## Related
 
-- [spotify-mini](https://github.com/rocktimsaikia/spotify-mini) - Simple Spotify client for Nodejs
+- [spotify-mini](https://github.com/rocktimsaikia/spotify-mini) - Simple Spotify client for Nodejs exposing some useful methods
 
 ## License
 
