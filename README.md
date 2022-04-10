@@ -1,8 +1,8 @@
-# spotify-rtoken
+# spotify-rtoken-cli
 
 ![spotify-rtoken](./spotify-rtoken.svg)
 
-> Generate a Spotify `refresh_token` right from terminal
+> Generate Spotify `refresh_token` right from terminal
 
 ## Highlights
 
@@ -40,6 +40,10 @@ $ spotify-rtoken --help
     $ spotify-rtoken
     $ spotify-rtoken --no-mask
 ```
+
+## Related
+
+- [spotify-mini](https://github.com/rocktimsaikia/spotify-mini) - Simple Spotify client for Nodejs
 
 ## License
 
