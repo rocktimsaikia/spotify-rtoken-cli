@@ -5,6 +5,7 @@
 ![spotify-rtoken](./spotify-rtoken.svg)
 
 > In step 5, you will be redirected to your browser for confirming permissions. Then you will be redirected to the specified `callback_url` with the code. Copy that `code`, paste in the terminal.
+
 >  ![partial_blur](https://user-images.githubusercontent.com/33410545/162616418-d5d907cb-cb6f-4712-875c-2f1493920cc8.jpg)
 
 
