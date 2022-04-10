@@ -1,39 +1,39 @@
 {
-  "name": "spotify-refresh-token-cli",
-  "version": "1.0.0",
-  "files": [
-    "cli.js"
-  ],
-  "license": "MIT",
-  "type": "module",
-  "bin": {
-    "spotify-rtoken": "./cli.js"
-  },
-  "author": {
-    "email": "rocktimthedev@gmail.com",
-    "name": "Rocktim Saikia",
-    "url": "https://rocktimcodes.site"
-  },
-  "funding": "https://buymeacoffee.com/rocktimcodes",
-  "repository": "rocktimsaikia/spotify-rtoken-cli",
-  "dependencies": {
-    "boxen": "^6.2.1",
-    "chalk": "^5.0.1",
-    "clipboardy": "^3.0.0",
-    "inquirer": "^8.2.2",
-    "meow": "^10.1.2",
-    "node-fetch": "^3.2.3",
-    "open": "^8.4.0",
-    "ora": "^6.1.0"
-  },
-  "devDependencies": {
-    "prettier": "^2.6.2"
-  },
-  "keywords": [
-    "spotify",
-    "spotify-refresh-token",
-    "spotify-refresh-token-generate",
-    "spotify-refresh-token-cli",
-    "refresh-token"
-  ]
+	"name": "spotify-rtoken-cli",
+	"version": "0.0.0",
+	"files": [
+		"cli.js"
+	],
+	"license": "MIT",
+	"type": "module",
+	"bin": {
+		"spotify-rtoken": "./cli.js"
+	},
+	"author": {
+		"email": "rocktimthedev@gmail.com",
+		"name": "Rocktim Saikia",
+		"url": "https://rocktimcodes.site"
+	},
+	"funding": "https://buymeacoffee.com/rocktimcodes",
+	"repository": "rocktimsaikia/spotify-rtoken-cli",
+	"dependencies": {
+		"boxen": "^6.2.1",
+		"chalk": "^5.0.1",
+		"clipboardy": "^3.0.0",
+		"inquirer": "^8.2.2",
+		"meow": "^10.1.2",
+		"node-fetch": "^3.2.3",
+		"open": "^8.4.0",
+		"ora": "^6.1.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.6.2"
+	},
+	"keywords": [
+		"spotify",
+		"spotify-refresh-token",
+		"spotify-refresh-token-generate",
+		"spotify-refresh-token-cli",
+		"refresh-token"
+	]
 }
