@@ -1,6 +1,6 @@
 {
 	"name": "spotify-rtoken-cli",
-	"version": "0.0.3",
+	"version": "1.0.0",
 	"description": "Generate a Spotify refresh_token right from the terminal",
 	"files": [
 		"cli.js"
