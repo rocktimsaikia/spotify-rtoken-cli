@@ -62,8 +62,6 @@ const formatAuthUrl = ({ clientId, redirectUri, scopes }) => {
 	const query = stringify({
 		client_id: clientId,
 		redirect_uri: redirectUri,
-		redirect_uri: redirectUri,
-		redirect_uri: redirectUri,
 		scope: scopes.join(','),
 	})
 	const callbackUrl = `https://accounts.spotify.com/authorize?${query}&response_type=code`
